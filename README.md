@@ -8,6 +8,7 @@ Personal portfolio for **Neha Abhigna** (AM.SC.U4CSE25117), built for the 23CSE1
 - `README.md` — This file
 
 ##  Navigation Links
+
 1. `#home` · `#about` · `#projects` · `#contact` · `resume.html`
 
 ##  Features
