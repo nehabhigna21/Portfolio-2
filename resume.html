@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume | Neha Abhigna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#05080f;--bg2:#090d18;--accent:#a78bfa;--accent2:#38bdf8;--accent3:#f472b6;--gold:#fbbf24;--text:#e2e8f5;--muted:#64748b;--border:rgba(167,139,250,0.15);--card:rgba(167,139,250,0.04);}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;}
+    nav{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 4rem;background:rgba(5,8,15,0.9);border-bottom:1px solid var(--border);}
+    .nav-logo{font-family:'JetBrains Mono',monospace;font-size:1rem;color:var(--accent);text-decoration:none;}
+    .nav-logo span{color:var(--muted);}
+    .nav-back{font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--muted);text-decoration:none;letter-spacing:.08em;text-transform:uppercase;transition:color .2s;}
+    .nav-back:hover{color:var(--accent);}
+    main{max-width:860px;margin:0 auto;padding:4rem 2rem 6rem;}
+    .resume-header{border:1px solid var(--border);border-radius:12px;padding:2.5rem;margin-bottom:2rem;background:var(--card);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;}
+    .resume-name{font-size:2.5rem;font-weight:800;letter-spacing:-.02em;}
+    .resume-role{font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--accent);margin-top:.4rem;}
+    .resume-id{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--muted);margin-top:.3rem;}
+    .resume-contact{text-align:right;}
+    .resume-contact p{font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--muted);margin-bottom:.3rem;}
+    .resume-section{margin-bottom:2.5rem;}
+    .section-head{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border);}
+    .entry{padding:1.2rem;background:var(--card);border:1px solid var(--border);border-radius:8px;margin-bottom:1rem;}
+    .entry-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.4rem;}
+    .entry-title{font-weight:700;font-size:1rem;}
+    .entry-place{color:var(--accent2);font-size:.85rem;margin-top:.2rem;}
+    .entry-date{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--muted);white-space:nowrap;}
+    .entry-desc{font-size:.88rem;color:var(--muted);line-height:1.7;margin-top:.5rem;}
+    .entry-desc li{margin-left:1.2rem;margin-bottom:.3rem;}
+    .badges{display:flex;flex-wrap:wrap;gap:.6rem;}
+    .badge{font-family:'JetBrains Mono',monospace;font-size:.68rem;padding:.35rem .8rem;border:1px solid var(--border);border-radius:100px;color:var(--text);background:var(--card);}
+    @media(max-width:600px){nav{padding:1rem 1.5rem;}main{padding:2rem 1rem 4rem;}.resume-contact{text-align:left;}}
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">neha<span>.dev</span></a>
+  <a href="index.html" class="nav-back">← Back to Portfolio</a>
+</nav>
+<main>
+  <div class="resume-header">
+    <div>
+      <div class="resume-name">Neha Abhigna</div>
+      <div class="resume-role">// B.Tech Computer Science & Engineering</div>
+      <div class="resume-id">AM.SC.U4CSE25117 · 2nd Semester</div>
+    </div>
+    <div class="resume-contact">
+      <p>nehabhigna@gmail.com</p>
+      <p>github.com/nehabhigna21</p>
+      <p>linkedin.com/in/neha-abhigna-ganne</p>
+    </div>
+  </div>
+
+  <div class="resume-section">
+    <div class="section-head">Education</div>
+    <div class="entry">
+      <div class="entry-header">
+        <div><div class="entry-title">B.Tech in Computer Science and Engineering</div><div class="entry-place">Amrita Vishwa Vidyapeetham</div></div>
+        <div class="entry-date">2025 – 2029</div>
+      </div>
+      <div class="entry-desc">Relevant coursework: Data Structures, Algorithms, Web Technologies, User Interface Design, OOP, DBMS.</div>
+    </div>
+  </div>
+
+  <div class="resume-section">
+    <div class="section-head">Projects</div>
+    <div class="entry">
+      <div class="entry-header">
+        <div><div class="entry-title">Gesture Controlled Virtual Mouse</div><div class="entry-place">Python · OpenCV · MediaPipe</div></div>
+        <div class="entry-date">2024</div>
+      </div>
+      <ul class="entry-desc">
+        <li>Computer vision app that enables mouse control through hand gestures via webcam.</li>
+        <li>Used MediaPipe for real-time hand landmark detection and OpenCV for video processing.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="entry-header">
+        <div><div class="entry-title">Live Chatbot</div><div class="entry-place">Python · NLP · AI</div></div>
+        <div class="entry-date">2024</div>
+      </div>
+      <ul class="entry-desc">
+        <li>Built a real-time AI chatbot demonstrating natural language understanding and response generation.</li>
+        <li>Integrated NLP techniques for intent recognition and context-aware conversations.</li>
+      </ul>
+    </div>
+    <div class="entry">
+      <div class="entry-header">
+        <div><div class="entry-title">Portfolio Website</div><div class="entry-place">HTML5 · CSS3 · JavaScript</div></div>
+        <div class="entry-date">2025</div>
+      </div>
+      <ul class="entry-desc">
+        <li>Designed a fully responsive portfolio with cosmic theme, custom cursor, and scroll animations.</li>
+        <li>Hosted on GitHub Pages with proper file structure and README documentation.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="resume-section">
+    <div class="section-head">Skills</div>
+    <div class="entry">
+      <div class="badges">
+        <span class="badge">HTML5</span><span class="badge">CSS3</span><span class="badge">JavaScript</span>
+        <span class="badge">Python</span><span class="badge">C / C++</span>
+        <span class="badge">Pandas</span><span class="badge">NumPy</span><span class="badge">Matplotlib</span>
+        <span class="badge">OpenCV</span><span class="badge">ML Basics</span>
+        <span class="badge">Git</span><span class="badge">GitHub</span>
+        <span class="badge">Content Writing</span><span class="badge">VS Code</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="resume-section">
+    <div class="section-head">Interests</div>
+    <div class="entry">
+      <div class="badges">
+        <span class="badge">Web Development</span><span class="badge">Data Science</span>
+        <span class="badge">Artificial Intelligence</span><span class="badge">Astrophysics</span>
+        <span class="badge">Content Writing</span><span class="badge">Open Source</span>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>
