@@ -22,5 +22,5 @@ HTML5 · CSS3 · Vanilla JavaScript · Google Fonts (Outfit + JetBrains Mono)
 
 ##  Hosting
 Push to GitHub → Settings → Pages → Deploy from main branch.
-Live: `https://nehabhigna21.github.io/portfolio`
+Live: `https://nehabhigna21.github.io/portfolio-2`
 
